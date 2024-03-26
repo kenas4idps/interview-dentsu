@@ -1,29 +1,21 @@
-# template-vite-react-ts-tailwind-v3
+# Requirements:
 
-- **template of:** vite + react + typescript
-- **tailwindcss:** v3.x
+We want to find FE who can create guidelines for the FE development.
 
-## Started
-```bash
-yarn
-# or `npm install`
-```
+- How to solve common problem in forms -> inputs & validations
+- How to use common components:
+  - DatePicker
+  - DateRangePicker
+  - DataTables
+  - Inputs
 
----
-## Develop
-```bash
-yarn dev
-# or `npm run dev`
-```
+## Experienced in:
 
----
-## Build
-```bash
-yarn build
-# or `npm run build`
-```
+Creating common building blocks for an ERP frontend application using:
 
----
-<p align="center">
-<img src="./powered-by-vitawind-bright.png">
-</p>
+1. Typescript
+2. React & JSX
+3. MaterialUI
+4. react-hook-form
+5. tailwindCSS (optional)
+6. react-table (optional)
