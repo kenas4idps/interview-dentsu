@@ -7,7 +7,7 @@ type Inputs = {
 };
 
 export default function Form() {
-  const { register, handleSubmit } = useForm<Inputs>();
+  const { register, handleSubmit, control } = useForm<Inputs>();
 
   const onSubmit: SubmitHandler<Inputs> = (data) => {
     alert(data.email + " " + data.password);
@@ -21,7 +21,7 @@ export default function Form() {
         className="flex w-[300px] flex-col"
         onSubmit={handleSubmit(onSubmit)}
       >
-        <CustomTextField name="email" label="Email" />
+        <CustomTextField name="email" label="Email" control={control} />
 
         <input
           className="mb-4 rounded p-2 text-black"

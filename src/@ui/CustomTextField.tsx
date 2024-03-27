@@ -20,6 +20,7 @@ export type Props = {
   showBorder?: boolean;
   inputHalfWidth?: boolean;
   isDisable?: boolean;
+  control?: any;
   errMsg?: string;
   onKeyDown?: (e: KeyboardEvent<HTMLDivElement>) => void;
   rules?: Rule;
@@ -35,12 +36,14 @@ const CustomTextField = ({
   rules,
   isDisable,
   onKeyDown,
+  control,
   errMsg,
 
   ...restProps
 }: Props) => {
   return (
     <Controller
+      control={control}
       rules={rules}
       render={({ field }) => (
         <div
